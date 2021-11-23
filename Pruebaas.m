@@ -14,9 +14,8 @@ e = test_t - y
 b1 = 48.4427
 
 e_e = e'*e
-
-
-Tenemos que k= 3 y n= 138
+%
+%Tenemos que k= 3 y n= 138
 
 s= e_e/(138-4)
 
@@ -29,7 +28,7 @@ t = b1 - 0 / (sqrt(v_1))
 
 
 %Graficos
-plot(y, x1, 'o'),title('Años de escolaridad'),grid
+plot(y, x1, 'o'),title('AÃ±os de escolaridad'),grid
 plot(y, x2, 'o'),title('Acceso a agua potable'),grid
 plot(y, x3, 'o'),title('Inflacion'),grid
 
